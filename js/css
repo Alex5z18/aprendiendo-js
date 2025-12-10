@@ -1,0 +1,17 @@
+.body{
+
+    font-family: Arial, sans-serif;
+    background-color: #ff0000;
+    color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+#parrafo{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 15px;
+    background-color: aquamarine;
+}
