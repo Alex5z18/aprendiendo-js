@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo th y colgroup</title>
+  <style>
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th {
+      background-color: #a37c2c; /* color para encabezados */
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    td {
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Ejemplo de uso de &lt;th&gt; y &lt;colgroup&gt;</h2>
+
+  <table>
+    <!-- colgroup sirve para aplicar estilos a columnas completas -->
+    <colgroup>
+      <col style="background-color: #f0f0f0;"> <!-- primera columna -->
+      <col style="background-color: #e0ffe0;"> <!-- segunda columna -->
+      <col style="background-color: #ffe0e0;"> <!-- tercera columna -->
+    </colgroup>
+
+    <tr>
+      <!-- th sirve para definir celdas de encabezado -->
+      <th>Característica</th>
+      <th>Diego</th>
+      <th>Camila</th>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>33</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Sexo</td>
+      <td>Masculino</td>
+      <td>Femenino</td>
+    </tr>
+    <tr>
+      <td>Resultado</td>
+      <td>Lógica</td>
+      <td>Python</td>
+    </tr>
+    <tr>
+      <td>Nota</td>
+      <td>4.5</td>
+      <td>5.0</td>
+    </tr>
+  </table>
+
+  <p><strong>&lt;th&gt;</strong>: define celdas de encabezado (títulos de columnas o filas).</p>
+  <p><strong>&lt;colgroup&gt;</strong>: permite aplicar estilos a columnas completas sin necesidad de hacerlo celda por celda.</p>
+
+</body>
+</html>
